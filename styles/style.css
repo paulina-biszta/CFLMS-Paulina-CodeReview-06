@@ -1,0 +1,51 @@
+body {
+    background-color: #d1e0e2;
+}
+
+.navbar {
+    background: radial-gradient(circle, #899cb1 0%, rgb(167, 213, 224) 100%);
+}
+
+.container-fluid>h1 {
+    color: rgba(114, 159, 170, 0.7);
+}
+
+.card.loc {
+    border-radius: 2vw;
+    border: none;
+    background-color: rgba(167, 213, 224, 0.7);
+    padding: 1vw;
+    color: #5684b9;
+}
+
+.card.res {
+    border-radius: 2vw;
+    border: none;
+    background-color: rgba(114, 159, 170, 0.7);
+    padding: 1vw;
+    color: rgba(255, 255, 255, 0.7);
+    ;
+}
+
+.card.eve {
+    border-radius: 2vw;
+    border: none;
+    background-color: rgba(50, 97, 109, 0.7);
+    padding: 1vw;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.text-muted {
+    color: rgb(255, 255, 255, 0.7) !important;
+}
+
+button.restaurant {
+    background: radial-gradient(circle, #899cb1 0%, rgb(167, 213, 224) 100%);
+    color: white;
+    border: none;
+    border-radius: 1vw;
+}
+
+button.restaurant>a {
+    text-decoration: none;
+}
